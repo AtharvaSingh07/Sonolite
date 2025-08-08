@@ -1,7 +1,7 @@
 # 🌟 Sonolite - AI-Powered Handheld Ultrasound for Rural Healthcare
 
 <p align="center">
-  <img src="sonolite_app/app/src/main/res/drawable/logo.png" alt="Sonolite Banner" width="200"/>
+  <img src="sonolite/sonolite_app/app/src/main/res/drawable/logo.png" alt="Sonolite Banner" width="200"/>
 </p>
 
 ## 🧠 Abstract
