@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"/>
+
+    <!-- Overlay for better contrast -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Registration UI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_to"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/semibold_font"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bold_font"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_as_patient"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/regular_font"/>
+
+        <!-- Input Fields -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_username"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/regular_font"/>
+
+        <EditText
+            android:id="@+id/aadhaar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_adhaar"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/regular_font"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/regular_font"/>
+
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_confirm_password"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/regular_font"/>
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#F48FB1"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/semibold_font"/>
+
+    </LinearLayout>
+
+</FrameLayout>

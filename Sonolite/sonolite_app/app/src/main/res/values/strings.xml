@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">sonolite_app</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="select_language">Select Language</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_to">Welcome To</string>
+    <string name="tagline">Affordable Ultrasound Anytime, Anywhere</string>
+    <string name="login">Login</string>
+
+    <!-- Login Page -->
+    <string name="app">SONOLITE</string>
+    <string name="login_to">Login to</string>
+    <string name="login_description">Login as a patient using your registered Aadhaar Number.</string>
+    <string name="enter_aadhaar">Enter Aadhaar Number</string>
+    <string name="password_hint">****************</string>
+    <string name="login_button">Login</string>
+
+    <!-- Register Page -->
+    <string name="register_to">Register to</string>
+    <string name="register_as_patient">Register as a patient using your email.</string>
+    <string name="hint_username">Enter your user name.</string>
+    <string name="hint_adhaar">Enter your Adhaar Number.</string>
+    <string name="hint_password">Enter your password.</string>
+    <string name="hint_confirm_password">Confirm your password.</string>
+    <string name="register">Register</string>
+
+    <!-- Ultrasound -->
+    <string name="title_ultrasound">Ultrasound</string>
+    <string name="upload_scan">Upload Previous Scan</string>
+    <string name="upload_video">Upload Video Scan</string>
+    <string name="start_scan">Start Scan</string>
+
+    <!-- Upload Scan -->
+    <string name="download_pdf">Download as PDF</string>
+
+    <!-- Diet Activity -->
+    <string name="trimester_specific_diet">Trimester Specific Diet</string>
+
+
+    <!-- Trimester Activity -->
+    <string name="trimester_1">Trimester 1</string>
+    <string name="trimester_2">Trimester 2</string>
+    <string name="trimester_3">Trimester 3</string>
+    <string name="post_delivery">Post Delivery Diet</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="proteins">Plant Proteins</string>
+    <string name="animal_proteins">Animal Proteins and Dairy</string>
+    <string name="beverages">Beverages</string>
+    <string name="grains">Grains and Whole Foods</string>
+    <string name="nuts">Nuts and Seeds</string>
+    <string name="healthy_fats">Healthy Fats and Oils</string>
+
+    <!--Bottom Sheet -->
+    <string name="best_choices">✅ Best Choices:</string>
+    <string name="limit_avoid">❌ Limit / Avoid:</string>
+
+    <string name="trim1_fruits_best">🍊 Citrus fruits – Boosts immunity and absorbs iron\n🍌 Bananas – Reduces nausea</string>
+    <string name="trim1_fruits_avoid">⚠️ Unwashed fruits\n⚠️ Excess pineapple and papaya</string>
+
+    <string name="trim2_fruits_best">🍍 Pineapple (Moderation) – Aids digestion\n🥑 Avocado – Healthy fats for brain</string>
+    <string name="trim2_fruits_avoid">⚠️ Unripe papaya\n⚠️ Excess grapes (high sugar)</string>
+
+    <string name="trim3_fruits_best">🥝 Kiwi – High vitamin C\n🍠 Sweet potatoes – Supports fetal growth</string>
+    <string name="trim3_fruits_avoid">⚠️ Excess salty foods</string>
+
+    <string name="post_fruits_best">🥭 Papaya – Supports milk production\n🍌 Bananas – Boosts energy</string>
+    <string name="post_fruits_avoid">⚠️ Citrus fruits in excess</string>
+
+    <!-- Diet Options -->
+    <string name="title_diet_options">Diet Options</string>
+    <string name="general_diet_plan">General Diet Plan</string>
+    <string name="personalized_diet_plan">Personalized Diet Plan</string>
+
+    <!-- Diet Form -->
+    <string name="diet_plan_generator">Diet Plan Generator</string>
+    <string name="select_trimester">Select Trimester</string>
+    <string name="select_allergies">Select Allergies</string>
+    <string name="allergy_milk">Milk</string>
+    <string name="allergy_yogurt">Yogurt</string>
+    <string name="allergy_nuts">Nuts</string>
+    <string name="allergy_gluten">Gluten</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="bp_high">High</string>
+    <string name="bp_normal">Normal</string>
+    <string name="bp_low">Low</string>
+    <string name="blood_sugar">Blood Sugar</string>
+    <string name="sugar_gdm">Gestational Diabetes</string>
+    <string name="sugar_normal">Normal</string>
+    <string name="diet_type">Diet Type</string>
+    <string name="veg">Vegetarian</string>
+    <string name="nonveg">Non-Vegetarian</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_doctor_name">Doctors name</string>
+    <string name="generate_diet_plan">GENERATE DIET PLAN</string>
+    <string-array name="trimester_array">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
